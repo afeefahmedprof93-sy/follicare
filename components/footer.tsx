@@ -24,7 +24,10 @@ export function Footer() {
           </div>
         </div>
       </div>
-      <div className="border-t border-white/10 px-5 py-5 text-center text-xs text-white/45">© 2026 FolliCare. Demo storefront. Product information is not medical advice.</div>
+      <div className="border-t border-white/10 px-5 py-5 text-center text-xs leading-6 text-white/45">
+        <p>© 2026 FolliCare. Demo storefront. Product information is not medical advice.</p>
+        <p className="text-[10px] tracking-wide text-white/35">Created by Afeef Ahmed &amp; Noman Abdullah</p>
+      </div>
     </footer>
   );
 }

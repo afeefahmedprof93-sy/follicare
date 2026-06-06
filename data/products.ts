@@ -183,6 +183,24 @@ export const products: Product[] = [
     suitableFor: "Adults seeking general stress and sleep support. Consult a clinician before use if pregnant, nursing, taking medication, or managing a health condition.",
     badge: "Wellness support",
   },
+  {
+    id: "fc-11",
+    slug: "scalpcare-dandruff-detox-shampoo",
+    name: "ScalpCare Dandruff Detox Shampoo",
+    category: "Wash Care",
+    price: 1150,
+    rating: 4.8,
+    reviews: 32,
+    image: "/products/scalpcare-dandruff-detox.jpeg",
+    imageAlt: "Green ScalpCare Dandruff Detox anti-dandruff shampoo bottle",
+    shortDescription: "A low-pH, sulfate-free shampoo for flaky, uncomfortable scalps.",
+    description: "A gentle anti-dandruff cleansing formula with piroctone olamine, designed to remove buildup and help leave the scalp feeling clean, calm, and balanced.",
+    benefits: ["Helps reduce visible flakes", "Cleanses scalp buildup", "Low-pH gentle care", "Sulfate-free formula"],
+    ingredients: ["Piroctone olamine", "Gentle cleansing agents", "Scalp conditioners", "Moisture-support complex"],
+    usage: "Apply to wet scalp and massage gently for 60–90 seconds. Rinse thoroughly. Repeat only when needed and follow the product label.",
+    suitableFor: "Flaky, oily, or dandruff-prone scalps. Discontinue use if irritation occurs and seek professional advice for persistent symptoms.",
+    badge: "Scalp essential",
+  },
 ];
 
 export const categories = ["All", ...Array.from(new Set(products.map((product) => product.category)))];
