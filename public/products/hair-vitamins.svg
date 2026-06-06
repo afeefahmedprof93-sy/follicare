@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 990">
+  <defs><linearGradient id="g"><stop stop-color="#222b20"/><stop offset="1" stop-color="#657058"/></linearGradient><filter id="s"><feDropShadow dy="25" stdDeviation="22" flood-opacity=".25"/></filter></defs>
+  <rect width="900" height="990" fill="#d8dfd0"/><circle cx="710" cy="200" r="240" fill="#f5efe3" opacity=".8"/>
+  <g filter="url(#s)"><rect x="280" y="232" width="340" height="570" rx="70" fill="url(#g)"/><rect x="265" y="162" width="370" height="130" rx="45" fill="#253125"/><path d="M285 205h330M285 230h330M285 255h330" stroke="#73806b" stroke-width="8"/><rect x="305" y="390" width="290" height="260" rx="5" fill="#ede6d8"/></g>
+  <text x="450" y="455" text-anchor="middle" font-family="Georgia" font-size="50" fill="#183126">Hair Vitality</text><text x="450" y="500" text-anchor="middle" font-family="Arial" font-size="17" letter-spacing="3" fill="#344b3a">DAILY NUTRITION</text><circle cx="395" cy="560" r="30" fill="#8c9d75"/><circle cx="450" cy="560" r="30" fill="#c49551"/><circle cx="505" cy="560" r="30" fill="#7b4e3b"/><text x="450" y="622" text-anchor="middle" font-family="Arial" font-size="14" fill="#344b3a">30 CAPSULES</text>
+</svg>

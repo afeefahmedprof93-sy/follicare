@@ -1,0 +1,9 @@
+import type { Metadata } from "next";
+import { Mail, MapPin, Phone } from "lucide-react";
+import { Button, SectionTitle } from "@/components/ui";
+
+export const metadata: Metadata = { title: "Contact", description: "Contact FolliCare for product, routine, and order support." };
+
+export default function ContactPage() {
+  return <section className="mx-auto grid max-w-7xl gap-12 px-5 py-16 lg:grid-cols-[.75fr_1.25fr] lg:px-8 lg:py-24"><div><SectionTitle eyebrow="Get in touch" title="We’re here to help." text="Questions about a product, your routine, or an order? Send a note and our care team will get back to you." /><div className="mt-9 space-y-5 text-sm text-ink/65"><p className="flex items-center gap-3"><Mail className="size-5 text-gold" /> care@follicare.com</p><p className="flex items-center gap-3"><Phone className="size-5 text-gold" /> +880 1XXX-XXXXXX</p><p className="flex items-center gap-3"><MapPin className="size-5 text-gold" /> Dhaka, Bangladesh</p></div></div><form className="rounded-[2.5rem] bg-white p-6 sm:p-10"><div className="grid gap-5 sm:grid-cols-2">{["Name", "Email"].map((label) => <label key={label}><span className="mb-2 block text-xs font-semibold text-ink/60">{label}</span><input type={label === "Email" ? "email" : "text"} required className="h-13 w-full rounded-xl border border-ink/15 bg-cream/50 px-4 outline-none focus:border-ink" /></label>)}<label className="sm:col-span-2"><span className="mb-2 block text-xs font-semibold text-ink/60">Subject</span><input required className="h-13 w-full rounded-xl border border-ink/15 bg-cream/50 px-4 outline-none focus:border-ink" /></label><label className="sm:col-span-2"><span className="mb-2 block text-xs font-semibold text-ink/60">Message</span><textarea required rows={6} className="w-full rounded-xl border border-ink/15 bg-cream/50 p-4 outline-none focus:border-ink" /></label></div><Button type="submit" className="mt-6">Send message</Button></form></section>;
+}

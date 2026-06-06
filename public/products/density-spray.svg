@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 990">
+  <defs><linearGradient id="g" x1="0" x2="1" y2="1"><stop stop-color="#efe9df"/><stop offset="1" stop-color="#d8cbbc"/></linearGradient><filter id="s"><feDropShadow dy="26" stdDeviation="20" flood-opacity=".2"/></filter></defs>
+  <rect width="900" height="990" fill="url(#g)"/><path d="M0 170c220-80 390-55 555 78S780 415 900 365V0H0Z" fill="#f8f4ec" opacity=".65"/>
+  <g filter="url(#s)"><rect x="315" y="225" width="270" height="600" rx="48" fill="#526253"/><rect x="365" y="105" width="170" height="170" rx="22" fill="#cdbb9f"/><path d="M395 105V72h110v33" stroke="#cdbb9f" stroke-width="22"/><circle cx="450" cy="92" r="10" fill="#f8f4ec"/></g>
+  <text x="450" y="415" text-anchor="middle" font-family="Georgia" font-size="52" fill="#f8f4ec">FolliCare</text><text x="450" y="470" text-anchor="middle" font-family="Arial" font-size="18" letter-spacing="4" fill="#e8dfcf">DENSITY SPRAY</text><line x1="370" y1="505" x2="530" y2="505" stroke="#b68b4b"/><text x="450" y="550" text-anchor="middle" font-family="Arial" font-size="15" letter-spacing="2" fill="#f8f4ec">CAFFEINE + MINERALS</text><text x="450" y="725" text-anchor="middle" font-family="Arial" font-size="15" fill="#f8f4ec">60 ML / 2 FL OZ</text>
+</svg>
